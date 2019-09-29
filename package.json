@@ -1,0 +1,28 @@
+{
+  "name": "bs-dash",
+  "version": "0.0.1",
+  "description": "Tiny Supplemental Library for BuckleScript",
+  "main": "src/dash.ml",
+  "keywords": [
+    "bucklescript",
+    "reasonml",
+    "stdlib"
+  ],
+  "author": "Masakazu Yoshida",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myoshida/bs-dash.git"
+  },
+  "homepage": "https://github.com/myoshida/bs-dash",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^6.2.0"
+  }
+}
+

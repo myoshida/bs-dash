@@ -1,0 +1,17 @@
+.DS_Store
+*~
+*.elc
+*.pyc
+*.cmx
+*.cmo
+*.cmi
+
+node_modules
+npm-debug.log
+lib
+
+.merlin
+/lib/
+/coverage/
+.bsb.lock
+*.bs.js
